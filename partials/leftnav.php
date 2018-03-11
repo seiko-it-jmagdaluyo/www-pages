@@ -2,7 +2,7 @@
 <div class="left-navigation" id="div-leftnav">
     <div id="sidemenu">
         <dl id="slider">
-            <dt><img src="/images/s_menu01.jpg" alt="貿易会の紹介と入会案内" /></dt>
+            <dt><img src="../assets/images/s_menu01.jpg" alt="貿易会の紹介と入会案内" /></dt>
             <dd>
                 <ul class="menu">
                     <li><a href="introduction_index.php">福岡貿易会とは</a></li>
@@ -10,14 +10,14 @@
                     <li><a href="introduction_index03.html">入会案内</a></li>
                 </ul>
             </dd>
-            <dt><img src="/images/s_menu02.jpg" alt="貿易コンサルティング" /></dt>
+            <dt><img src="../assets/images/s_menu02.jpg" alt="貿易コンサルティング" /></dt>
             <dd>
                 <ul class="menu">
                     <li><a href="tradeconsulting_index.html">国際ビジネス相談</a></li>
                     <li><a href="tradeconsulting_adviser.html">アドバイザー一覧</a></li>
                 </ul>
             </dd>
-            <dt><img src="/images/s_menu03.jpg" alt="セミナー案内" /></dt>
+            <dt><img src="../assets/images/s_menu03.jpg" alt="セミナー案内" /></dt>
             <dd>
                 <ul class="menu">
                     <li><a href="seminar_index.php">セミナー案内</a></li>
@@ -28,14 +28,14 @@
                     -->
                 </ul>
             </dd>
-            <dt><img src="/images/s_menu04.jpg" alt="会員ページ" /></dt>
+            <dt><img src="../assets/images/s_menu04.jpg" alt="会員ページ" /></dt>
             <dd>
                 <ul class="menu">
                     <li><a href="kaiin_kdetail1.php">お知らせ</a></li>
                     <li><a href="kaiin_kdetail1.php#soukai">総会等</a></li>
                 </ul>
             </dd>
-            <dt><img src="/images/s_menu05.jpg" alt="会員企業紹介" /></dt>
+            <dt><img src="../assets/images/s_menu05.jpg" alt="会員企業紹介" /></dt>
             <dd>
                 <ul class="menu">
                     <li><a href="memberenterprise_index.html">会員企業紹介</a></li>
@@ -49,7 +49,7 @@
                 </ul>
             </dd>
         </dl>
-        <p class="smenu"><a href="trade_index.php"><img src="/images/s_menu06.jpg" alt="福貿ニュース（広報誌）" /></a></p>
+        <p class="smenu"><a href="trade_index.php"><img src="../assets/images/s_menu06.jpg" alt="福貿ニュース（広報誌）" /></a></p>
     </div>
-    <p class="mb10"><a href="/blog/"><img src="/images/banner_blog_off.jpg" alt="スタッフブログ" /></a></p>
+    <p class="mb10"><a href="/blog/"><img src="../assets/images/banner_blog_off.jpg" alt="スタッフブログ" /></a></p>
 </div>

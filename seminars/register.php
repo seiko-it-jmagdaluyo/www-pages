@@ -34,33 +34,33 @@
                     Seminar Registration Form
                 </div>
                 <div class="panel-body">
-                    <form class="form-horizontal" name="frm-registration" action="<?php echo $_SERVER["PHP_SELF"];?>" method="POST">
+                    <form class="form-horizontal" name="frm-registration" action="<?php echo $_SERVER["PHP_SELF"];?> autocomplete='off' method="POST">
         
                         <div class="form-group">
                             <label for="name" class="control-label col-md-3">Name</label>
                             <div class="col-md-9">
-                                <input type="text" name="name" class="form-control">
+                                <input type="text" name="name" class="form-control" autocomplete='name'>
                             </div>
                         </div>
         
                         <div class="form-group">
                             <label for="company" class="control-label col-md-3">Company Name</label>
                             <div class="col-md-9">
-                                <input type="text" name="company" class="form-control">
+                                <input type="text" name="company" class="form-control" autocomplete='organization'>
                             </div>
                         </div>
         
                         <div class="form-group">
                             <label for="telephone" class="control-label col-md-3">Telephone No.</label>
                             <div class="col-md-9">
-                                <input type="text" name="telephone" class="form-control">
+                                <input type="text" name="telephone" class="form-control" autocomplete='tel'>
                             </div>
                         </div>
         
                         <div class="form-group">
                             <label for="email" class="control-label col-md-3">Email Address</label>
                             <div class="col-md-9">
-                                <input type="text" name="email" class="form-control">
+                                <input type="text" name="email" class="form-control" autocomplete='email'>
                             </div>
                         </div>
         
@@ -76,7 +76,7 @@
             </div>
         </div>
     </div>
-    <script src="../../js/jquery.js"></script>
+    <script src="../assets/js/jquery.js"></script>
     <script src="../assets/vendor/Respond/dest/respond.min.js"></script>
     <script src="../assets/js/javascripts.js"></script>
 </body>
