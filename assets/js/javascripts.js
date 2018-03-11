@@ -54,16 +54,18 @@ var accordion=function(){
 }();
 var slider1=new accordion.slider('slider1');
 slider1.init("slider");
+
+var width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
+if(width >= 991){
+    document.getElementById("div-leftnav").style.display="block"
+}else{
+    document.getElementById("div-leftnav").style.display="none"
+}
+
 $('document').ready(function(){
     $('.slider dt').click(function(){
         var slider1=new accordion.slider('slider1');
         slider1.init("slider");
     });
-    if($(window).width() >= 991){
-        $('.left-navigation').css("display",'block');
-    }else{
-        $('.left-navigation').css("display",'none');
-    }
-    
 });
     

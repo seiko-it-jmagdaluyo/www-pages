@@ -59,6 +59,9 @@ body {
     filter:brightness(200%) !important;
 }
 
+.left-navigation{
+     /*display: block; */
+}
 .leftnavicon.icon, .topnav .icon {
     display: none;
 }
@@ -77,6 +80,10 @@ body {
     display: block;
     margin: auto;
 }
+
+#sidemenu dl dt, p.smenu {
+    border-bottom: dotted 1px #ad0815;
+}
 #sidemenu dl dt img, #sidemenu dl dd ul li, p.smenu a img, .mb10 a img{
     display: block;
     margin: auto;
@@ -87,7 +94,7 @@ ul.menu {
 	margin:0;
 	margin:0;
 	list-style: none;
-	background:#FFF;
+    background: #f7f7f7; 
 }
 ul.menu li{
 	padding:0;
@@ -141,14 +148,15 @@ p.smenu {
     }
     .leftnavicon.icon{
         display: block;
-        margin: 5px;
-        padding: 0 10px;
+        margin: 5px 0;
+        padding: 3 10px 3 10px;
         font-size:2.5rem;
         background: rgb(214, 44, 44);
         border-radius: 5px;
-        width: 1.7em;
+        width: 1.5em;
         color: #ffe8ea;
         text-decoration: none;
+        text-align: center !important;
     }
 }
 
@@ -166,8 +174,19 @@ p.smenu {
         margin-bottom: 1%;
         background-position:10px 00px;
     }
+
+    .top-navigation{
+        overflow: hidden;
+        /*background-image: url('/images/topnav_bg.png') !important;*/
+        background-image: none !important;
+        /*background-repeat: repeat-x;*/
+        /*background-size: contain;*/
+        margin-bottom: 1%;
+        background: rgb(214, 44, 44);
+    }
     .topnav {
         width: 100%;
+        height: auto;
         position: relative;
     }
     .topnav a{
@@ -216,10 +235,7 @@ p.smenu {
     }
 
     .left-navigation{
-        /* display: none; */
-    }
-    #sidemenu dl dt, p.smenu {
-        border-bottom: dotted 1px #ad0815;
+         /*display: none; */
     }
     .container{
         width: 100%;
