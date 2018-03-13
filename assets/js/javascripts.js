@@ -52,8 +52,10 @@ var accordion=function(){
     }
     return{slider:slider}
 }();
+
 var slider1=new accordion.slider('slider1');
 slider1.init("slider");
+
 
 var width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
 if(width >= 991){
@@ -66,6 +68,10 @@ $('document').ready(function(){
     $('.slider dt').click(function(){
         var slider1=new accordion.slider('slider1');
         slider1.init("slider");
+    });
+
+    $(".alert").on("click",".close-message", function(){
+        $(this).parent().css('display', 'none');
     });
 });
     
